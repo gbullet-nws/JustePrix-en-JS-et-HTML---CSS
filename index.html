@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="Exercice du Juste Prix" content="Exercice en JavaScript sur le jeu du Juste Prix">
+        <title>TP du Juste Prix</title>
+        <!-- Police et fichier CSS -->
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <main>
+            <section>
+                <h1> Le Juste Prix </h1>
+                <p> À votre avis, combien coûte le produit mystère ? </p>
+                <h2 id="indice-plus" class="display-none"> C'est plus ! </h2>
+                <h2 id="indice-moins" class="display-none"> C'est moins ! </h2>
+                <form id="play-form" action="" name="answerArea">
+                    <label for="price"> Tapez votre prix : </label>
+                    <input name="answerArea" id="price" type="number" placeholder="           Écrivez ici "/>
+                    <button type="submit"> Répondre </button>
+                </form>
+                <p class="phraseInfo"> <u> L'objectif est de deviner le prix mystérieux entre 0 et 100.</u> </p>
+            </section>
+        </main>
+
+        <script src="main.js"></script>
+
+    </body>
+</html>

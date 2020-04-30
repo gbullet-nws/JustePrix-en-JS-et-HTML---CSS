@@ -1,0 +1,65 @@
+body {
+    background-image: url('https://opengameart.org/sites/default/files/background_18.png');
+    background-size: cover;
+    background-position: top;
+
+    font-family: 'Roboto', sans-serif;
+}   
+
+main {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    width: 50%;
+    height: 400px;
+    background-color: white;
+    border-radius: 40px;
+    box-shadow: 0 0 10px 10px rgba(255, 255, 255, .3);
+    padding: 30px;
+    text-align: center;
+}
+
+.display-none {
+    display: none;
+}
+
+/* titre et phrase */
+main section h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    font-size: 45px;
+    color: gold;
+    font-variant: small-caps;
+}
+main section p{
+    font-size: 24px;
+}
+main section p.phraseInfo{
+    color: rgb(28, 133, 182);
+}
+
+/* Zone d'info plus ou moins */
+main section h2{
+    font-size: 30px;
+    color: rgb(185, 14, 14);
+}
+
+
+/* Zone de texte et boutton d'envoi */
+main section form label{
+    font-size: 26px;
+    color: rgb(28, 133, 182);
+    font-weight: bolder;
+    padding-bottom: 10px;
+}
+main section form input{
+    font-size: 24px;
+}
+main section form button{
+    font-size: 22px;
+    font-weight: bold;
+}
